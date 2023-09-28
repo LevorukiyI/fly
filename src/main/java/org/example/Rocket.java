@@ -1,6 +1,6 @@
 package org.example;
 
-public class Rocket implements FlyOnSpinLaunch{
+public abstract class Rocket implements FlyOnSpinLaunch{
     public static final Integer FLY_SPEED_AFTER_SPINLAUNCH = 1000;
     public Integer flySpeed;
 

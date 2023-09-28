@@ -1,6 +1,6 @@
 package org.example;
 
-public class BodyWithReactiveEngine implements FlyOnJetThrust{
+public abstract class BodyWithReactiveEngine implements FlyOnJetThrust{
     public static final Integer DEFAULT_HEIGHT = 1000;
 
     private Integer fuel;
