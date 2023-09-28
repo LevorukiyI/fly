@@ -37,14 +37,14 @@ public class Shuttle extends BodyWithReactiveEngine implements ConductUncontroll
     @Override
     public void increaseArchimedeanForce(double archimedeanForce) {
         this.archimedeanForce += archimedeanForce;
-        System.out.println("archimedeanForce were increased to " + this.pressureDifference);
+        System.out.println("archimedeanForce were increased to " + this.archimedeanForce);
     }
 
     @Override
     public void decreaseArchimedeanForce(double archimedeanForce) {
         if(this.archimedeanForce - archimedeanForce >= 0){
             this.archimedeanForce -= archimedeanForce;
-            System.out.println("archimedeanForce were decreased to " + this.pressureDifference);
+            System.out.println("archimedeanForce were decreased to " + this.archimedeanForce);
         }
         else{
             System.out.println("archimedeanForce must not be less then 0");
