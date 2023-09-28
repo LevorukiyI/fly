@@ -1,7 +1,7 @@
 package org.example;
 
 public class StoneInSling implements FlyOnSpinLaunch{
-    public static final Integer FLY_HEIGHT = 100;
+    public static final Integer FLY_SPEED_AFTER_SPINLAUNCH = 100;
     private Integer height;
 
     public StoneInSling(){
@@ -13,6 +13,6 @@ public class StoneInSling implements FlyOnSpinLaunch{
     }
 
     public void spinLaunch(){
-        this.height = FLY_HEIGHT;
+        this.height = FLY_SPEED_AFTER_SPINLAUNCH;
     }
 }
